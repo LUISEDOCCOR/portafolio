@@ -1,0 +1,23 @@
+.container-cards, .conatiner-header{
+    width: 50vw;
+}
+.conatiner-header{
+    display: flex;
+    flex-direction: column;
+
+}
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1400px){
+    .conatiner-header, .container-cards{
+        width: 80vw;
+    }
+    .container-cards{
+        gap: 30px;
+    }
+}
