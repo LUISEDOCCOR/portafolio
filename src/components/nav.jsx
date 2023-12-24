@@ -19,8 +19,7 @@ const pages = [
     },
     {
         'name': <FaGithub/>,
-        'to': ''
-
+        'to': 'https://github.com/LUISEDOCCOR'
     }
 ]
 

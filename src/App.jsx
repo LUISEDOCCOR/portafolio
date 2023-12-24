@@ -3,6 +3,7 @@ import Nav from './components/nav.jsx'
 import Home from './pages/home/home.jsx';
 import Certifications from './pages/certifications/certifications.jsx';
 import Projects from './pages/projects/projects.jsx';
+import Form from './pages/contact/conatct.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
@@ -28,7 +29,7 @@ const route = createBrowserRouter([
   {
     path: '/contacto',
     element: (
-      <h1>Contacto</h1>
+      <Form />
     )
   }
 ])
