@@ -1,0 +1,30 @@
+.container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container-about-me{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container-about-me p{
+    color: #999;
+}
+.conatiner-skills{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+.icon-skills{
+    transition: .3s;
+}
+.icon-skills:hover{
+    transform: scale(1.5);
+    opacity: .7;
+}
