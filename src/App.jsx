@@ -12,9 +12,21 @@ const route = createBrowserRouter([
     )
   },
   {
-    path: '/sobremi',
+    path: '/proyectos',
     element:(
-      <Home/>
+      <h1>Proyectos</h1>
+    )
+  },
+  {
+    path: '/certificaciones',
+    element:(
+      <h1>Certificaciones</h1>
+    )
+  },
+  {
+    path: '/contacto',
+    element: (
+      <h1>Contacto</h1>
     )
   }
 ])

@@ -1,4 +1,4 @@
-nav{
+.desktop-nav{
     display: flex;
     justify-content: center;
 }
@@ -12,6 +12,9 @@ nav{
     font-size: 1em;
     font-weight: 500;
 }
+.mobile-name{
+    display: none;
+}
 .nav-container-ul{
     gap: 20px;
 }
@@ -21,4 +24,50 @@ nav{
 }
 .nav-item:hover{
     color: #fff;
+}
+@media screen and (max-width: 1400px) {
+    .container-nav{
+        width: 80vw;
+    }   
+}
+@media screen and (max-width: 800px) {
+    .desktop-nav{
+        height: 100vh;
+    }
+    .desktop-nav-remove{
+        display: none;
+    }
+    .container-nav, .nav-container-ul{
+        flex-direction: column;
+    }
+    .container-nav{
+        margin-top: 20px;
+        justify-content: start;
+        gap: 20px;
+    }
+    .desktop-name{
+        display: none;
+    }
+    .mobile-name{
+        display: block;
+    }
+    .mobile-name{
+        display: block;
+    }    
+    .mobile-nav{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+    .mobile-nav-container button{
+        font-size: 2em;
+        background-color: #ffffff00;
+        border: none;
+    }
 }
