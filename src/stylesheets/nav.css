@@ -12,7 +12,7 @@
     font-size: 1em;
     font-weight: 500;
 }
-.mobile-name{
+.mobile-name, .mobile-nav-container button{
     display: none;
 }
 .nav-container-ul{
@@ -66,6 +66,7 @@
         width: 80vw;
     }
     .mobile-nav-container button{
+        display: block;
         font-size: 2em;
         background-color: #ffffff00;
         border: none;
