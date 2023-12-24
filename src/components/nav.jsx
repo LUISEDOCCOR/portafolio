@@ -1,6 +1,25 @@
 import '../stylesheets/nav.css'
 import { FaGithub } from "react-icons/fa";
 
+const pages = [
+    {
+        'name': 'Proyectos',
+        'to': '/proyectos'
+    },
+    {
+        'name': 'Certificaciones',
+        'to': '/certificaciones'
+    },
+    {
+        'name': 'Contacto',
+        'to': '/contacto'
+    },
+    {
+        'name': <FaGithub/>,
+        'to': ''
+
+    }
+]
 
 
 const Nav = () => {
@@ -9,15 +28,13 @@ const Nav = () => {
             <div className='container-nav'>
                 <span className='nav-item'>Luis Eduardo Ocegueda Cortes</span>
                 <ul className="nav-container-ul">
-                    <li className="nav-li">
-                        <a className="nav-a nav-item" href="">Proyectos</a>
-                    </li>
-                    <li className="nav-li">
-                        <a className="nav-a nav-item" href="" >Contacto</a>
-                    </li>
-                    <li>
-                        <a href="" className='nav-a nav-item'><FaGithub className='icon-github'/></a>
-                    </li>
+                    {
+                        pages.map((page) => (
+                            <li className="nav-li">
+                                <a className="nav-a nav-item" href={page.to}>{page.name}</a>
+                            </li>
+                        ))
+                    }
                 </ul>
             </div>
         </nav>

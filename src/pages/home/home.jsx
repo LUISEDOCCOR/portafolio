@@ -11,7 +11,7 @@ const Home = () =>{
             <div className="container-about-me">
                 <h1>Luis Eduardo Ocegueda Cortes</h1>
                 
-                <p>¡Hola!, soy Luis Eduardo, programador frontend y backend</p>
+                <p>¡Hola! 🖐 soy Luis Eduardo, programador frontend y backend.</p>
                 
                 <p>Programador autodidacta.</p>
                 
