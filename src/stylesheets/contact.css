@@ -7,7 +7,6 @@
     border-radius: 20px;
     font-size: 1.2em;
     font-weight: 700;
-    margin: 0 7vw;
 }
 .conatiner-form label{
     display: flex;
@@ -33,4 +32,9 @@
 .conatiner-form button:hover{
     opacity: .7;
     transform: scale(1.1);
+}
+@media screen and (max-width: 800px) {
+    .conatiner-form{
+        width: 250px;
+    }
 }
