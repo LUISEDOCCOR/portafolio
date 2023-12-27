@@ -20,6 +20,11 @@ const certifications = [
         'name': 'Frontend con HTML, CSS y JS',
         'text': 'Curso sobre cómo crear páginas usando HTML, CSS y JS',
         'link': 'https://www.mastermind.ac/certificates/551bc00405864777873a31006c8b55b5'
+    },
+    {
+        'name': 'Desarrollo Desarrollo web Python Master en Python: Aprender Python 3, Django, Flask y Tkinter',
+        'text': 'Curso sobre backend con django',
+        'link': '/certificado-udemy-python.pdf'
     }
 ]
 
