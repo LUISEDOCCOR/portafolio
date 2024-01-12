@@ -7,11 +7,12 @@
     border-radius: 20px;
     font-size: 1.2em;
     font-weight: 700;
+    width: 35vw ;
 }
 .conatiner-form label{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .conatiner-form input, .conatiner-form textarea{
     font-size: 1em;
@@ -23,15 +24,15 @@
     padding: 10px;
     font-size: .7em;
     font-weight: 700;
-    width: 50%;
+    width: 25%;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     float: right;
     transition: .3s;
 }
 .conatiner-form button:hover{
     opacity: .7;
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 @media screen and (max-width: 800px) {
     .conatiner-form{
